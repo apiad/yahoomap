@@ -8,83 +8,60 @@
 </head>
 
 <body>
+    <script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="https://raw.githubusercontent.com/manifestinteractive/jqvmap/master/dist/jquery.vmap.min.js"></script>
-    <script type="text/javascript" src="https://raw.githubusercontent.com/manifestinteractive/jqvmap/master/dist/maps/jquery.vmap.usa.js"></script>
-
-    <script>
-        data = {
-            "AK": 10,
-            "AL": 10,
-            "AR": 10,
-            "AZ": 10,
-            "CA": 10,
-            "CO": 10,
-            "CT": 10,
-            "DE": 10,
-            "FL": 10,
-            "GA": 10,
-            "HI": 10,
-            "IA": 10,
-            "ID": 10,
-            "IL": 10,
-            "IN": 10,
-            "KS": 10,
-            "KY": 10,
-            "LA": 10,
-            "MA": 10,
-            "MD": 10,
-            "ME": 10,
-            "MI": 10,
-            "MN": 10,
-            "MO": 10,
-            "MS": 10,
-            "MT": 10,
-            "NC": 10,
-            "ND": 10,
-            "NE": 10,
-            "NH": 10,
-            "NJ": 10,
-            "NM": 10,
-            "NV": 10,
-            "NY": 10,
-            "OH": 10,
-            "OK": 10,
-            "OR": 10,
-            "PA": 10,
-            "RI": 10,
-            "SC": 10,
-            "SD": 10,
-            "TN": 10,
-            "TX": 10,
-            "UT": 10,
-            "VA": 10,
-            "VT": 10,
-            "WA": 10,
-            "WI": 10,
-            "WV": 10,
-            "WY": 10,
-        }
-    </script>
+    <script type="text/javascript" src="jquery.vmap.min.js"></script>
+    <script type="text/javascript" src="jquery.vmap.usa.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
 
     <script>
         $(function () {
-            jQuery('#vmap').vectorMap({
-                map: 'usa_en',
-                backgroundColor: null,
-                color: '#ffffff',
-                hoverOpacity: 0.7,
-                selectedColor: '#666666',
-                enableZoom: true,
-                showTooltip: true,
-                values: data,
-                scaleColors: ['#C8EEFF', '#006491'],
-                normalizeFunction: 'polynomial'
+            $.get("us_states_data.json", function (data) {
+
+                var numbers = _.mapObject(data, function(val, key) {
+                    return val.value;
+                });
+
+                console.log("original data", data);
+                console.log("numbers", numbers);
+
+                jQuery('#vmap').vectorMap({
+                    map: 'usa_en',
+                    backgroundColor: null,
+                    color: '#ffffff',
+                    hoverOpacity: 0.7,
+                    selectedColor: '#666666',
+                    enableZoom: true,
+                    showTooltip: true,
+                    values: numbers,
+                    scaleColors: ['#C8EEFF', '#006491'],
+                    normalizeFunction: 'polynomial',
+                });
+
+                var table = $("#states")
+                var total = _.reduce(numbers, function(memo, val) { return memo + val; });
+
+                _.each(data, function(val, key) {
+                    table.append($("<tr/>")
+                        .append($("<td/>").text(key))
+                        .append($("<td/>").text(val.name))
+                        .append($("<td/>").text(numeral(val.value / total).format("0.00%")))
+                    );
+                });
             });
-        })
+        });
     </script>
 
-    <div id="vmap" style="width: 600px; height: 400px;"></div>
+    <div id="vmap" style="width: 900px; height: 600px;"></div>
+    <div>
+        <table id="states">
+            <tr>
+                <th>State Code</th>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
