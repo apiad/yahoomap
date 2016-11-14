@@ -1,0 +1,257 @@
+Epes,Alabama,1
+Erie,Pennsylvania,37
+Kent,Washington,17
+Akron,Ohio,20
+Ceres,California,5
+Dover,Delaware,54
+Fargo,North Dakota,57
+Inman,Kansas,20
+Lacey,Washington,20
+Miami,Florida,58
+Ozona,Texas,3
+Ridge,New York,20
+Salem,Massachusetts,19
+Tempe,Arizona,20
+Tulsa,Oklahoma,19
+Ambler,Pennsylvania,72
+Arnold,Missouri,20
+Arvada,Colorado,37
+Asbury,West Virginia,17
+Austin,Texas,70
+Berwyn,Illinois,20
+Boston,Massachusetts,1
+Butler,Pennsylvania,37
+Clovis,California,25
+Dallas,Texas,133
+Dayton,Ohio,38
+Denver,Colorado,139
+Dublin,Ohio,37
+Dunbar,West Virginia,20
+Elyria,Ohio,20
+Emmaus,Pennsylvania,35
+Estero,Florida,37
+Eugene,Oregon,20
+Fresno,California,17
+Gurnee,Illinois,20
+Hooper,Utah,20
+Humble,Texas,17
+Irvine,California,20
+Irving,Texas,20
+Kearny,New Jersey,38
+Kerman,California,37
+Lannon,Wisconsin,20
+Marion,South Carolina,20
+Mclean,Virginia,59
+Mcloud,Oklahoma,38
+Mentor,Ohio,58
+Milton,Florida,20
+Monroe,New York,20
+Newark,New Jersey,19
+Orange,Connecticut,20
+Owasso,Oklahoma,3
+Putney,Kentucky,6
+Sonoma,California,38
+Sumter,South Carolina,40
+Tacoma,Washington,17
+Topeka,Kansas,40
+Warren,Michigan,20
+Aguanga,California,20
+Ashburn,Virginia,17
+Ashland,Kentucky,21
+Astoria,Oregon,17
+Atlanta,Georgia,39
+Batavia,New York,51
+Bedford,Pennsylvania,20
+Brandon,Mississippi,20
+Buffalo,New York,20
+Chicago,Illinois,49
+Concord,California,20
+Conyers,Georgia,78
+Cumming,Georgia,36
+Decatur,Georgia,1
+Deltona,Florida,72
+Dickson,Tennessee,38
+Fontana,California,6
+Hampton,Virginia,40
+Hayward,California,20
+Herndon,Virginia,57
+Hialeah,Florida,17
+Houston,Texas,173
+Livonia,Michigan,17
+Machias,Maine,20
+Madison,Wisconsin,39
+Mcallen,Texas,57
+Medford,New Jersey,37
+Mendota,Illinois,20
+Mission,Texas,20
+Modesto,California,20
+Norwalk,Connecticut,105
+Oakland,California,17
+Ontario,New York,80
+Orlando,Florida,1
+Parrish,Florida,72
+Phoenix,Arizona,55
+Raleigh,North Carolina,40
+Ravenna,Kentucky,19
+Redding,California,20
+Rocklin,California,40
+Roswell,Georgia,20
+Sanford,Michigan,20
+Shelton,Connecticut,20
+Suwanee,Georgia,37
+Terrell,Texas,20
+Alhambra,California,14
+Bellevue,Ohio,1
+Big Lake,Minnesota,20
+Cerritos,California,54
+Columbia,Maryland,18
+Columbia,Tennessee,20
+Columbia,South Carolina,40
+Columbus,Ohio,40
+Elsberry,Missouri,190
+Goodyear,Arizona,40
+Kirkland,Washington,20
+Lakeland,Florida,40
+Lockport,Illinois,40
+Marietta,Georgia,39
+New York,New York,177
+Newville,Pennsylvania,20
+Palmdale,California,40
+Pasadena,Texas,18
+Paterson,New Jersey,20
+Randolph,Alabama,20
+Richmond,Kentucky,17
+San Jose,California,19
+Savannah,Georgia,17
+Somerset,Kentucky,4
+Spanaway,Washington,18
+Stamford,Connecticut,39
+Sterling,Virginia,20
+Stockton,California,19
+Torrance,California,55
+Westland,Michigan,53
+Woodbury,New Jersey,17
+Baltimore,Maryland,60
+Bradenton,Florida,1
+Brentwood,Tennessee,18
+Charlotte,North Carolina,37
+Claremont,New Hampshire,54
+Cleveland,Ohio,18
+Cleveland,Wisconsin,37
+Deer Park,Texas,20
+Deer Park,New York,57
+Englewood,Colorado,17
+Haverhill,Massachusetts,20
+Hawthorne,California,57
+Henderson,North Carolina,72
+Jacksboro,Texas,37
+Kissimmee,Florida,19
+Lancaster,New York,20
+Las Vegas,Nevada,318
+Los Gatos,California,20
+Mansfield,Texas,17
+Melbourne,Florida,94
+Nashville,Tennessee,20
+Riverside,California,17
+Riverside,Rhode Island,40
+San Diego,California,113
+Shelburne,Vermont,109
+Snohomish,Washington,20
+Sunnyvale,California,20
+Tenstrike,Minnesota,20
+Alexandria,Virginia,20
+Atascadero,California,40
+Birmingham,Alabama,40
+Brookhaven,Mississippi,20
+Burlington,Kansas,20
+Burlington,Colorado,20
+Burnsville,Minnesota,1
+Carrollton,Texas,19
+Doylestown,Pennsylvania,20
+Evansville,Indiana,39
+Flemington,New Jersey,167
+Fort Worth,Texas,54
+Grandville,Michigan,56
+Greensboro,Georgia,19
+Hicksville,New York,17
+Huntsville,Alabama,40
+Lake Villa,Illinois,20
+Livingston,New Jersey,94
+Middletown,New York,79
+Moorefield,West Virginia,20
+Naperville,Illinois,40
+Norristown,Pennsylvania,20
+Oak Harbor,Washington,20
+Pittsburgh,Pennsylvania,94
+Richardson,Texas,479
+Santa Cruz,California,20
+Santa Ynez,California,40
+Southfield,Michigan,40
+Union Hall,Virginia,39
+Valparaiso,Indiana,20
+Waynesboro,Georgia,20
+Wilmington,Delaware,20
+Bakersfield,California,60
+Baton Rouge,Louisiana,19
+Bloomington,Indiana,18
+Casselberry,Florida,1
+Chesterland,Ohio,20
+Chula Vista,California,40
+Fort Pierce,Florida,37
+Holdenville,Oklahoma,17
+Hyattsville,Maryland,40
+Jersey City,New Jersey,20
+Kansas City,Missouri,18
+Little Rock,Arkansas,89
+Long Valley,New Jersey,20
+Los Angeles,California,60
+Maple Grove,Minnesota,115
+Millersburg,Ohio,19
+Mooresville,North Carolina,37
+New Orleans,Louisiana,39
+Palm Harbor,Florida,20
+San Antonio,Texas,20
+Santa Clara,California,19
+Santa Maria,California,56
+Springfield,Illinois,20
+Watsonville,California,20
+Waynesville,North Carolina,34
+West Covina,California,20
+West Monroe,Louisiana,39
+Arizona City,Arizona,37
+Chino Valley,Arizona,17
+Douglasville,Georgia,20
+Fayetteville,Arkansas,47
+Flower Mound,Texas,20
+Garden Grove,California,3
+Green Valley,Arizona,57
+Jonesborough,Tennessee,23
+Lincoln Park,Michigan,37
+Mount Laurel,New Jersey,342
+Ormond Beach,Florida,19
+Philadelphia,Pennsylvania,37
+Phoenixville,Pennsylvania,17
+Port Orchard,Washington,95
+Steinhatchee,Florida,18
+Strongsville,Ohio,89
+Winter Haven,Florida,6
+Arroyo Grande,California,100
+Coeur D'Alene,Idaho,20
+Huachuca City,Arizona,19
+Mountain City,Tennessee,18
+San Francisco,California,19
+Columbia Falls,Montana,18
+East Greenwich,Rhode Island,17
+Elizabeth City,North Carolina,40
+Powder Springs,Georgia,20
+Salt Lake City,Utah,60
+St. Petersburg,Florida,19
+Stone Mountain,Georgia,20
+West Hollywood,California,60
+College Station,Texas,55
+Huntington Beach,California,20
+North Fort Myers,Florida,17
+Schodack Landing,New York,20
+Rancho Santa Margarita,California,20
+,Alabama,39
+,Wisconsin,37
